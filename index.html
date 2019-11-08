@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="fontastylesheet">
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="fontastylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -16,7 +16,7 @@
   <body>
     <header>
       <a href="#top" class = "skip"> Skip to Content </a>
-      <nav id="primary_nav">
+      <nav class="primary_nav">
         <ul>
           <li class="home"><a href="#home">Home</a>
           <li class="about"><a href="#about">About</a>
@@ -24,128 +24,117 @@
           <li class="contact"><a href="#contact">Contact</a>
         </ul>
       </nav>
-
       <h1>Henny Tasker</h1>
-
       <h2>Design Thinking for a Thinking World</h2>
     </header>
     <section id="home">
-      <img src="imgs/alma_mater.PNG" class = "centered" alt="a line drawing of a building with Greek columns and colored banners" />
+      <img src="images/alma-mater.PNG" class = "centered" alt="a line drawing of a building with Greek columns and colored banners" />
       <p class="centered-text">Welcome to my portfolio! My work sits at the intersection of UX Design and Human-Computer Interaction. I'm fascinated by how people communicate, learn, and work online. Explore my work below, or contact me directly to learn more.</p>
     </section>
-
     <section id="about">
-        <header>
-          <div class="content-container">
-            <h3 class="right-h3">About</h3>
-          </div>
-        </header>
+    <header>
       <div class="content-container">
-        <img src="imgs/self_portfolio.PNG" class = "about-image" alt="a line drawing of Henny Tasker"/>
-        <p class="about-text">Hello! My name is Henny Tasker and I am a Master's student at the University of Michigan concentrating in UX Research and Design, with a secondary focus on Human-Computer Interaction. I love learning about people's passions! What makes a person excited about new technology and ways of doing things? What makes a person dread change? What helps people get things done online? <br><br> My past career as a teacher and Instructional Designer continue to inform my work. I am deeply interested in exploring diverse online learning environments, and am passionate about designing accessible computer interactions for everyone.</p>
+        <h3 class="right-h3">About</h3>
       </div>
-    </section>
-
-    <section id="portfolio">
-      <header>
-        <h3 class="left-h3">Portfolio</h3>
-      </header>
-      <div class="port-container">
-        <div class="port-card1">
-          <img src="images/mads-michigan-law-library.JPG" alt="image of a banner announcing the Master's of Applied Science Degree" class="port-img"/>
+    </header>
+  <div class="content-container">
+    <img src="images/self-portfolio.PNG" class = "about-image" alt="a line drawing of Henny Tasker"/>
+    <p class="about-text1">Hello! My name is Henny Tasker and I am a Master's student at the University of Michigan concentrating in UX Research and Design, with a secondary focus on Human-Computer Interaction. I love learning about people's passions! What makes a person excited about new technology and ways of doing things? What makes a person dread change? What helps people get things done online?</p>
+  </div>
+</section>
+<section id="portfolio">
+  <header>
+    <h3 class="left-h3">Portfolio</h3>
+  </header>
+  <div class="port-container">
+      <div class="port-card1">
+        <img src="images/mads-michigan-law-library.JPG" alt="image of a banner announcing the Master's of Applied Science Degree" class="port-img1"/>
+        <div class="card-head">
           <h4>Masters of Applied Data Science</h4>
           <h5>Content Assistant</h5>
           <h6>Learning Design</h6>
         </div>
-        <div class="port-card2">
-          <div class="inside-card2">
-            <div class="fod-container">
-              <div class="fod-header">
-                <h4>FODMAPPA</h4>
-                <h5>An App for IBS</h5>
-                <h6>UI Design</h6>
-              </div>
-              <img id="fod-image1" src="images/fodmappa-lookup.PNG" alt="mockup of an app look-up screen with details about kale"/>
-              <img id = "fod-image2" src="images/fodmappa-homescreen-mockup.PNG" alt="mockup of an app home page with vector-drawn buttons"/>
-              <img id = "fod-image3" src="images/fodmappa-profile.PNG" alt="mockup of an app user profile page with graphs about food intolerances"/>
-            </div>
+      </div>
+      <div class="port-card2">
+          <div class="fod-container">
+            <img id="fod-image1" src="images/fodmappa-lookup.PNG" alt="mockup of an app look-up screen with details about kale"/>
+            <img id = "fod-image2" src="images/fodmappa-homescreen-mockup.PNG" alt="mockup of an app home page with vector-drawn buttons"/>
+            <img id = "fod-image3" src="images/fodmappa-profile.PNG" alt="mockup of an app user profile page with graphs about food intolerances"/>
           </div>
-        </div>
-        <div class="port-card1">
-          <img src="images/nonprofit-client-security.JPG" alt="a padlock resting on a mobile phone" class="port-img"/>
+          <div class ="grey card-head">
+            <h4>FODMAPPA</h4>
+            <h5>An App for IBS</h5>
+            <h6>UI Design</h6>
+          </div>
+      </div>
+      <div class="port-card1">
+          <img src="images/nonprofit-client-security.JPG" alt="a padlock resting on a mobile phone" class="port-img1"/>
           <h4>Security Practices in a Networking NonProfit</h4>
           <h6>Security and Systems Consultant</h6>
         </div>
         <div class="port-card1">
-          <img class="port-img" src="images/hypertension-pixabay-stevepb_1920.JPG" alt="overhead shot of two people's hands resting on sticky notes and paper"/>
+          <img class="port-img1" src="images/hypertension-pixabay-stevepb_1920.JPG" alt="overhead shot of two people's hands resting on sticky notes and paper"/>
           <h4>St. Luke's HealthGiver Portal</h4>
           <h5>A System for Patient Communication</h5>
           <h6>UX Research and Design</h6>
         </div>
         <div class="port-card1">
-          <img src="images/movie-review-tone.PNG" alt="mock-up of an iPad screen with movie ratings" class="port-img"/>
+          <img src="images/movie-review-tone.PNG" alt="mock-up of an iPad screen with movie ratings" class="port-img1"/>
           <h4>Movie Review Tone Analyzer</h4>
           <h5>Web-Scraping and API Project</h5>
           <h6>Programming</h6>
         </div>
         <div class="port-card2">
-          <div class="inside-card2">
-            <div class="stl-header">
-              <h4>PEBBLE</h4>
-              <h5>An App for Stress</h5>
-              <h6>PxD Design</h6>
-            </div>
-            <img id = "stl-image" src="images/robin-glauser-unsplash.JPG" alt="image of a website"/>
+          <img src="images/robin-glauser-unsplash.JPG" alt="image of a website" class="port-img2"/>
+          <div class="grey card-head">
+            <h4>PEBBLE</h4>
+            <h5>An App for Stress</h5>
+            <h6>PxD Design</h6>
+          </div>
         </div>
-      </div>
         <div class="port-card1">
-          <img src="images/digital-anatomy-learning.JPG" alt="a plastic model of a human ribcage" class="port-img"/>
-          <h4>Digital Anatomy Learning in Higher Education</h4>
+          <img src="images/digital-anatomy-learning.JPG" alt="a plastic model of a human ribcage" class="port-img1"/>
+          <h4>Digital Anatomy Learning</h4>
           <h5>Roles and Perceptions of Educational Technology</h5>
           <h6>UX Research</h6>
         </div>
       </div>
     </section>
-
-    <!-- <section id="experience">
+    <section id="contact">
       <header>
-        <h3 class="orange-h3">Experience</h3>
-      </header> -->
-      <section id="contact">
-        <header>
-          <div class="content-container">
-            <h3 class="right-h3">Contact</h3>
-          </div>
-        </header>
-        <div class="contact-form">
-          <form method="post">
-            <fieldset>
-              <legend><h4>Get in Touch</h4></legend>
-              <label for = "name"> Name</label>
-              <input type = "text" id = "name">
-              <br>
-              <label>Email</label>
-                <input type = "email" id = "email">
-              </label>
-              <input type = "submit">
-            </fieldset>
-          </form>
+        <div class="content-container">
+          <h3 class="right-h3">Contact</h3>
         </div>
+      </header>
+      <div class="contact-form">
+        <form method="post">
+          <fieldset>
+            <legend><h4>Get in Touch</h4></legend>
+            <label for = "name"> Name</label>
+            <input type = "text" id = "name">
+            <br>
+            <label>Email</label>
+              <input type = "email" id = "email">
+            </label>
+            <input type = "submit">
+          </fieldset>
+        </form>
+      </div>
     </section>
     <footer>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a>
-          <li><a href="about.html">About</a>
-          <li><a href="projects.html">Projects</a>
-          <li><a href="contact.html">Contact</a>
-        </ul>
-      </nav>
-      <small>&copy; 2019 Henny Tasker. </small>
-      <address>
-      <a href="mailto:mail@hennyt.com">mail@hennyt.com</a>
-      <a href = "http://www.linkedin.com/in/hztasker"><i class = "fab fa-linkedin-in" aria-label= "LinkedIn"></i></a>
-      </address>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a>
+        <li><a href="about.html">About</a>
+        <li><a href="projects.html">Projects</a>
+        <li><a href="contact.html">Contact</a>
+      </ul>
+    </nav>
+    <small>&copy; 2019 Henny Tasker. </small>
+    <address>
+    <a href="mailto:mail@hennyt.com">mail@hennyt.com</a>
+    <a href = "http://www.linkedin.com/in/hztasker"><i class = "fab fa-linkedin-in" aria-label= "LinkedIn"></i></a>
+    </address>
     </footer>
   </body>
 </html>
