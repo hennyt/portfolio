@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
-
   <body>
     <header>
       <a href="#top" class = "skip"> Skip to Content </a>
@@ -49,11 +48,9 @@
   <div class="port-container">
       <div class="mads-card1">
         <img src="images/mads-michigan-law-library.JPG" alt="image of a banner announcing the Master's of Applied Science Degree" class="port-img1"/>
-        <div class="card-head">
-          <h4>Masters of Applied Data Science</h4>
-          <h5>Content Assistant</h5>
-          <h6>Learning Design</h6>
-        </div>
+        <h4>Masters of Applied Data Science</h4>
+        <h5>Content Assistant</h5>
+        <h6>Learning Design</h6>
       </div>
       <div class="fod-card2">
           <div class="fod-container">
@@ -74,9 +71,11 @@
         </div>
         <div class="stl-card4">
           <img class="port-img1" src="images/hypertension-pixabay-stevepb_1920.JPG" alt="medium shot of blood-pressure cuff, doctor's bag, and pill minder box"/>
-          <h4>St. Luke's HealthGiver Portal</h4>
-          <h5>A System for Patient Communication</h5>
-          <h6>UX Research and Design</h6>
+          <div class="grey card-head">
+            <h4>St. Luke's HealthGiver Portal</h4>
+            <h5>A System for Patient Communication</h5>
+            <h6>UX Research and Design</h6>
+          </div>
         </div>
         <div class="movie-card6">
           <img src="images/movie-review-tone.PNG" alt="mock-up of an iPad screen with movie ratings" class="port-img1"/>
@@ -106,35 +105,33 @@
           <h3 class="right-h3">Contact</h3>
         </div>
       </header>
+      <header>
+        <h4>Get in Touch</h4>
+      </header>
       <div class="contact-form">
-        <form method="post">
+        <form class="form-horizontal" method="post">
           <fieldset>
-            <legend><h4>Get in Touch</h4></legend>
-            <label for = "name"> Name</label>
-            <input type = "text" id = "name">
-            <br>
-            <label>Email</label>
-              <input type = "email" id = "email">
-            </label>
-            <input type = "submit">
+            <div class="form-group">
+              <input aria-label="first name" name="name" type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input aria-label="email address" name="email" type="email" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input aria-label="subject line" name="name" type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <input aria-label="message" name="name" type="text" placeholder="Message">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
           </fieldset>
-        </form>
-      </div>
+      </form>
+    </div>
     </section>
     <footer>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a>
-        <li><a href="about.html">About</a>
-        <li><a href="projects.html">Projects</a>
-        <li><a href="contact.html">Contact</a>
-      </ul>
-    </nav>
-    <small>&copy; 2019 Henny Tasker. </small>
-    <address>
-    <a href="mailto:mail@hennyt.com">mail@hennyt.com</a>
-    <a href = "http://www.linkedin.com/in/hztasker"><i class = "fab fa-linkedin-in" aria-label= "LinkedIn"></i></a>
-    </address>
+    <small>&copy; 2019 Henny Tasker &nbsp; <a href = "http://www.linkedin.com/in/hztasker"><i class = "fab fa-linkedin-in" aria-label= "LinkedIn"></i></a></small>
     </footer>
   </body>
 </html>
