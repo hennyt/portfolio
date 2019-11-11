@@ -70,10 +70,9 @@
           <h6>Security and Systems Consultant</h6>
         </div>
         <div class="stl-card4">
-          <img class="port-img1" src="images/hypertension-pixabay-stevepb_1920.JPG" alt="medium shot of blood-pressure cuff, doctor's bag, and pill minder box"/>
+          <img class="port-img2" src="images/hypertension-pixabay-stevepb_1920.JPG" alt="medium shot of blood-pressure cuff, doctor's bag, and pill minder box"/>
           <div class="grey card-head">
             <h4>St. Luke's HealthGiver Portal</h4>
-            <h5>A System for Patient Communication</h5>
             <h6>UX Research and Design</h6>
           </div>
         </div>
@@ -106,28 +105,41 @@
         </div>
       </header>
       <header>
-        <h4>Get in Touch</h4>
+        <h3 class="centered">Get in Touch</h3>
       </header>
       <div class="contact-form">
-        <form class="form-horizontal" method="post">
-          <fieldset>
-            <div class="form-group">
-              <input aria-label="first name" name="name" type="text" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input aria-label="email address" name="email" type="email" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input aria-label="subject line" name="name" type="text" placeholder="Subject">
-            </div>
-            <div class="form-group">
-              <input aria-label="message" name="name" type="text" placeholder="Message">
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-            </div>
-          </fieldset>
-      </form>
+          <form action="submit.html" method="post">
+              <div class="group">
+                <input aria-label="first name" name="name" type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class = "react">Name</label>
+              </div>
+
+              <div class="group">
+                <input aria-label="email address" name="email" type="email" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class = "react">Email</label>
+              </div>
+
+              <div class="group">
+                <input aria-label="subject line" name="subject" type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class = "react">Subject</label>
+              </div>
+
+              <div class="group">
+                <input class="box" aria-label="message" name="message" type="text" required>
+                <label class="message">Message</label>
+              </div>
+
+              <div class="group">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              </div>
+
+          </form>
     </div>
     </section>
     <footer>
